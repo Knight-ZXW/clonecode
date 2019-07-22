@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "ab85275453",
+    "database": "probability_analysis",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "ab85275453",
+    "database": "probability_analysis",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "probability_analysis",
+    "host": "120.79.33.254",
+    "dialect": "mysql"
+  }
+}

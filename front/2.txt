@@ -1,0 +1,93 @@
+cd /data/end
+ls
+cd ..
+l;s
+mkdir data
+ls
+cd /data/
+wget http://cdn.npm.taobao.org/dist/node/v10.16.0/node-v10.16.0-linux-x64.tar.xz
+yum install xz -y
+tar -xvf node-v10.16.0-linux-x64.tar.xz 
+ln -s /data/node-v10.16.0-linux-x64/bin/npm /usr/local/bin/
+ln -s /data/node-v10.16.0-linux-x64/bin/node /usr/local/bin/
+yum install mysql mysql-server mysql-devel
+service mysqld start
+mysql -uroot -p
+yum install redis 
+service redis restart
+cd /etc
+vim redis.conf 
+service redis restart
+redis-cli
+service redis restart
+cd /data/end
+npm install 
+ls
+cd //
+cd ..
+ls
+cd /data
+ls
+chmod 777 -R end
+cd /data/end
+ls
+npm install 
+yum install nginx -y
+service nginx restart
+npm run restart
+service redis restart
+ls
+cd /etc/
+vim red
+vim redis.conf 
+redis-cli
+service redis restart
+cd /data/end
+npm run restart
+ls
+npm run restart
+service nginx restart
+npm run restart
+cd /data/end
+npm run restarty
+npm run restart
+npm install moment --save
+npm run restart
+npm run dev
+npm run stop
+npm run dev
+npm run restart
+top
+ps -ef root
+npm run stop
+npm run dev
+npm run restart
+npm run stop
+top
+ps -ef |grep node
+kill 3665
+ps -ef |grep node
+kill 4313
+ps -ef |grep node
+npm run restart
+reboot
+service nginx restart
+service redis restart
+service mysqld restart
+cd /data/edn
+cd /data/end
+npm run restart
+ls
+npm install moment --save
+npm run restart
+cd /data/end
+npm run restart
+service nginx restart
+npm run restart
+history
+mysql -uroot -p
+cd /data/end
+npm run restart
+history
+mysql -uroot -p
+exit
